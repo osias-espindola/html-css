@@ -1,0 +1,159 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+header{
+    background: rgb(60,217,131);
+    background: linear-gradient(180deg, rgb(65, 238, 143)0.5% ,rgb(46, 177, 105) , rgb(16, 65, 38));
+    color: rgb(255, 255, 255);
+    text-align:center;
+    margin: 0;
+}
+header h1{
+
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-top: 1.5em;
+}
+header p{
+  color: rgb(255, 255, 255);
+  margin-bottom: 1em;
+}
+nav{
+    margin: 20px 20px px 20px;
+    padding: 10px;
+    pa
+}
+nav li{
+    display: inline-block;
+    padding-right: 15px;
+}
+nav ul{
+   text-align: left;
+}
+nav a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+}
+nav a:hover{
+    background-color:  rgb(53, 228, 132);
+    color: rgb(20, 94, 53) ;
+}
+main{
+    background-color: rgba(151, 253, 197, 0.527);
+}
+
+.margin_base{
+    margin-left: 7em;
+    margin-right: 7em;
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.section_1{
+    
+}
+.section_1 h1{
+font-size: 1.5em;
+color:rgb(0, 90, 0);
+font-weight:700
+}
+.section_1 h2{
+font-size:  1.2em;
+color:rgb(0, 90, 0);
+font-weight:700;
+background-color: rgba(151, 253, 197, 0.527);
+background: radial-gradient( rgba(151, 253, 197, 0.527)10%,rgba(255, 255, 255, 0.527));
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+}
+
+img {
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+ 
+}
+
+.section_1 image{
+    margin: auto;
+}
+
+.section_2{
+    background-color: rgba(0, 100, 0, 0.733);
+    display: flex;
+}
+.section_2 iframe{
+    margin: auto;
+}
+.section_3 article {
+    background-color:rgba(151, 253, 197, 0.527);
+    border-radius: 10px; 
+}
+.section_3 .contener{
+    display: flex;
+}
+
+.section_3 h3{
+    background-color: darkgreen;
+    color: white;
+    font-weight: 800;
+    padding: 0.3em;
+    border-radius: 10px 10px 0 0;
+}
+.section_3  p,ul{
+    padding: 0.5em;
+}
+.section_3  ul{
+    padding: 0.5em;
+}
